@@ -1,158 +1,180 @@
-# Student Performance Analyzer
+<div align="center">
 
-## Project Details
+# 📊 Student Performance Analyzer
 
-| Field | Details |
-|---|---|
-| PS Number | 1 |
-| Project Title | Student Performance Analyzer |
-| Student Name | Rakshita Dubey |
-| Email ID | rakshita.dubey@rungta.org |
-| Course | BCA - First Semester |
-| Section | 1C |
+**Raw marks in. Grades, insights and charts out.**
 
-## 1. Project Description
+A tidy little command-line tool that turns a plain CSV of exam scores into totals, percentages, grades, class statistics and clean visualisations.
 
-The Student Performance Analyzer is a Python-based project that analyzes student academic performance using their marks in three subjects: Maths, Physics, and Chemistry.
+![Python](https://img.shields.io/badge/Python-3.8%2B-1F618D?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-Data-148F77?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-Stats-154360?style=for-the-badge&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Charts-0E6251?style=for-the-badge)
 
-It calculates total marks, percentages, and grades for each student. It also displays class statistics, identifies the class topper, calculates subject-wise averages, and generates graphical charts.
-
-## 2. Objectives
-
-- To calculate students' total marks.
-- To calculate student percentages.
-- To assign grades based on percentages.
-- To identify the class topper.
-- To calculate mean, median, and standard deviation.
-- To calculate subject-wise average marks.
-- To display student performance using charts.
-
-## 3. Technologies Used
-
-- **Python:** Main programming language.
-- **NumPy:** Used for numerical calculations.
-- **Pandas:** Used for data processing and analysis.
-- **Matplotlib:** Used for graphical representation.
-- **OS Module:** Used to check file existence.
-- **Sys Module:** Used to exit the program.
-
-## 4. Project Features
-
-1. Student Data Loading
-2. CSV File Validation
-3. Total Marks Calculation
-4. Percentage Calculation
-5. Automatic Grade Assignment
-6. Student Result Display
-7. Class Statistics
-8. Topper Identification
-9. Subject-wise Average Calculation
-10. Bar Chart and Histogram Generation
-
-## 5. Grade Criteria
-
-| Percentage | Grade |
-|---|---|
-| 90% and above | A |
-| 75% - 89% | B |
-| 60% - 74% | C |
-| 40% - 59% | D |
-| Below 40% | F |
-
-## 6. Input File Format
-
-The project uses a CSV file named `students.csv`.
-
-Example:
-
-```csv
-Rahul,85,90,88
-Priya,92,95,90
-Aman,65,70,68
-Neha,78,82,80
-```
-
-Each row contains:
-- Student Name
-- Maths Marks
-- Physics Marks
-- Chemistry Marks
-
-## 7. Installation Requirements
-
-Install Python and the required libraries.
-
-Run these commands in the VS Code terminal:
-
-```bash
-pip install numpy pandas matplotlib
-```
-
-## 8. How to Run the Project
-
-1. Open the project folder in VS Code.
-2. Create a Python file named `student_analyzer.py`.
-3. Save the project code in that file.
-4. Create a CSV file named `students.csv`.
-5. Add student records to the CSV file.
-6. Open the VS Code terminal.
-7. Run the following command:
-
-```bash
-python student_analyzer.py
-```
-
-## 9. Main Menu
-
-The program displays the following menu:
-
-```text
---- Student Performance Analyzer Menu ---
-
-1. View Student Results
-2. View Class Statistics & Charts
-3. Exit
-
-Select an option (1-3):
-```
-
-## 10. Output
-
-### Option 1: View Student Results
-
-Displays each student's name, total marks, percentage, and grade.
-
-### Option 2: View Class Statistics & Charts
-
-Displays:
-- Mean Percentage
-- Median Percentage
-- Standard Deviation
-- Class Topper
-- Subject-wise Average Marks
-- Student Percentage Bar Chart
-- Percentage Distribution Histogram
-
-### Option 3: Exit
-
-Terminates the program.
-
-## 11. Expected Graphs
-
-The project generates two graphical representations:
-
-1. **Bar Chart:** Displays the overall percentage of each student.
-2. **Histogram:** Displays the distribution of student percentages.
-
-## 12. Conclusion
-
-The Student Performance Analyzer is a useful Python project that helps analyze student academic performance efficiently. It uses Python libraries such as NumPy, Pandas, and Matplotlib to perform calculations, process student records, and generate graphical reports.
-
-This project demonstrates the practical application of Python programming, data analysis, and data visualization.
+</div>
 
 ---
 
-**Project Developed By:** Rakshita Dubey  
-**Course:** BCA - First Semester  
-**Section:** 1C  
-**PS Number:** 1
+## 🪪 Project Details
+
+| | |
+|---|---|
+| **PS Number** | 1 |
+| **Project Title** | Student Performance Analyzer |
+| **Student Name** | Rakshita Dubey |
+| **Email ID** | rakshita.dubey@rungta.org |
+| **Course** | Bachelor of Computer Applications (Full Stack in association with Google) |
+| **Section** | 1C |
+| **REF No.** | RU-26-02060 |
+| **University** | Rungta International Skills University, Bhilai (C.G.) |
+
+---
+
+## ✨ What It Does
+
+Drop a `students.csv` next to the script, run it, and get an interactive menu that handles the rest.
+
+- 🧮 **Results**: total marks, percentage and letter grade for every student
+- 📈 **Statistics**: mean, median, standard deviation, class topper and per-subject averages
+- 📊 **Bar chart**: side-by-side percentage comparison, auto-labelled
+- 🗂️ **Histogram**: see how the whole class is distributed across score ranges
+- 🔄 **Live reload**: edit the CSV, press `4`, no restart needed
+- 🛡️ **Forgiving input**: missing files, bad numbers and out-of-range marks are caught and skipped with a clear message instead of crashing
+
+---
+
+## 🏅 Grading Scale
+
+| Percentage | Grade |
+|:---:|:---:|
+| 90 and above | **A** |
+| 75 – 89.99 | **B** |
+| 60 – 74.99 | **C** |
+| 40 – 59.99 | **D** |
+| Below 40 | **F** |
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/<your-username>/student-performance-analyzer.git
+cd student-performance-analyzer
+```
+
+### 2. Install dependencies
+
+```bash
+pip install pandas numpy matplotlib
+```
+
+### 3. Run it
+
+```bash
+python main.py
+```
+
+---
+
+## 📁 Dataset Format
+
+`students.csv` has one student per row. The header row is optional and detected automatically.
+
+```csv
+Name,Maths,Physics,Chemistry
+Aman,80,70,90
+Riya,60,65,70
+Karan,40,35,50
+```
+
+Marks must be numbers between **0 and 100**. Any row that breaks this rule is skipped and reported.
+
+---
+
+## 🖥️ Demo
+
+```text
+=== Student Performance Analyzer ===
+
+1. Result (Totals, Percentages & Grades)
+2. Statistics (Mean, Median, Std Dev, Topper & Bar Chart)
+3. Plot Histogram (Percentage Distribution)
+4. Reload Dataset
+5. Exit
+Enter choice (1-5): 1
+
+--- Student Results ---
+Aman | 240 | 80.00% | B
+Riya | 195 | 65.00% | C
+Karan | 125 | 41.67% | D
+```
+
+```text
+Enter choice (1-5): 2
+
+--- Class Statistics ---
+Mean %: 62.22 | Median %: 65.00 | Std Dev: 15.77
+Topper: Aman (80.00%)
+Subject averages: Maths 60.00, Physics 56.67, Chemistry 70.00
+Bar chart displayed
+```
+
+> 💡 Drop your own screenshots of the bar chart and histogram here, e.g. `![Bar chart](screenshots/bar_chart.png)`
+
+---
+
+## 🧠 How It Works
+
+```
+students.csv ──► load_students() ──► validate & clean ──► DataFrame
+                                                             │
+                     ┌───────────────────────────────────────┤
+                     ▼                    ▼                  ▼
+              display_results()   display_statistics()  plot_histogram()
+              totals · % · grade   mean · median · σ      distribution
+                                   topper · bar chart
+```
+
+| Function | Role |
+|---|---|
+| `load_students()` | Reads the CSV, skips the header, validates every mark, computes Total, Percentage and Grade |
+| `assign_grade()` | Maps a percentage to a letter grade |
+| `display_results()` | Prints the per-student result table |
+| `display_statistics()` | Computes class-level stats with NumPy and finds the topper |
+| `plot_bar_chart()` | Draws the labelled percentage comparison |
+| `plot_histogram()` | Draws the percentage distribution in 20-point bins |
+
+> Standard deviation is the **population** standard deviation (`ddof=0`), which treats the class as the full group rather than a sample.
+
+---
+
+## 🧰 Tech Stack
+
+| Tool | Used for |
+|---|---|
+| **Python** | Core logic and the CLI menu |
+| **Pandas** | Loading, cleaning and aggregating data |
+| **NumPy** | Mean, median and standard deviation |
+| **Matplotlib** | Bar chart and histogram |
+
+---
+
+## 🌱 Ideas for Next Steps
+
+- [ ] Export results to a new CSV or Excel report
+- [ ] Add more subjects dynamically from the CSV header
+- [ ] Per-student radar chart across subjects
+- [ ] A small Streamlit dashboard version
+
+---
+
+<div align="center">
+
+**Built by Rakshita Dubey** · BCA (Full Stack in association with Google) · Section 1C
+Rungta International Skills University, Bhilai
+
+⭐ If you found this useful, consider starring the repo.
+
+</div>
