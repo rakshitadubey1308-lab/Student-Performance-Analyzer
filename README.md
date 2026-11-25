@@ -178,3 +178,18 @@ Rungta International Skills University, Bhilai
 ⭐ If you found this useful, consider starring the repo.
 
 </div>
+
+For Test 2, temporarily change the initial `health` value to `30` and set `TEST_MODE = True`. For Test 4, set `health = ...` and `TEST_MODE = True`. Restore `health = 100` and `TEST_MODE = False` for normal gameplay.
+
+## Conclusion
+
+This project demonstrates how basic Python concepts can be combined to create an interactive text-based game with player choices, random damage, scoring, and game-ending conditions.
+
+## Project Mentor
+
+**Mentored by:** [Mr. Satyaprakash Sethy](https://github.com)
+
+**GitHub:** [@SATYAPRAKASHSETHY](https://github.com)
+
+**Role:** Python Mentor / Technical Guide
+
